@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   declarations: [
     AppComponent,
+    HeroesComponent,
   ],
   bootstrap: [ AppComponent ]
 })
